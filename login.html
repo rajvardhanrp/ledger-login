@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign in · Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/ledger.css" />
+</head>
+<body>
+
+<div class="auth">
+  <div class="auth-visual">
+    <div class="brand">
+      <div class="brand-mark">L</div>
+      <div class="brand-name">Ledger</div>
+    </div>
+    <div>
+      <p class="auth-quote">"We moved billing, customers, and reporting into one dashboard — and stopped losing an afternoon a week to spreadsheets."</p>
+      <p class="auth-quote-by">Meera Iyer, Solstice Labs</p>
+    </div>
+    <div></div>
+  </div>
+
+  <div class="auth-form-wrap">
+    <form class="auth-form">
+      <h1>Welcome back</h1>
+      <p class="lead">Sign in to your workspace to continue.</p>
+
+      <div class="field">
+        <label for="login-email">Email address</label>
+        <input id="login-email" type="email" placeholder="you@company.com" />
+      </div>
+      <div class="field">
+        <label for="login-pass">Password</label>
+        <input id="login-pass" type="password" placeholder="••••••••" />
+      </div>
+
+      <button type="submit" class="btn btn-primary auth-submit">Sign in</button>
+
+      <p class="auth-foot">Don't have a workspace yet? <a href="#" style="color:var(--accent-ink);font-weight:600;">Create one</a></p>
+    </form>
+  </div>
+</div>
+
+<script src="assets/js/ledger.js"></script>
+</body>
+</html>
